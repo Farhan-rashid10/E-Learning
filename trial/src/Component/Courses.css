@@ -1,0 +1,42 @@
+.courses {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.courses button {
+  margin: 0.5rem;
+  width: 17%;
+  font-size: medium;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 10px;
+border: none;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+}
+.courses button:hover{
+  background-color: rgb(215, 166, 0);
+  animation: button-particles 1s ease-in-out infinite;
+  transform: translateY(-2px);
+
+}
+@keyframes button-shimmer {
+  0% {
+    background-position: left top;
+  }
+
+  100% {
+    background-position: right bottom;
+  }
+}
+
+/* Particle animation */
+@keyframes button-particles {
+  0% {
+    background-position: left top;
+  }
+
+  100% {
+    background-position: right bottom;
+  }
+}

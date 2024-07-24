@@ -1,0 +1,45 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Navbar {
+  color: black;
+  padding: 4rem;
+  padding-left: 999px;
+}
+
+
+
+
+
+
+
+.courses {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.courses button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.popular-courses {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+
+.footer {
+  color: black;
+  text-align: center;
+  padding: 1rem;
+}
