@@ -1,12 +1,14 @@
 // src/App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import Navbar from './Component/Nav';
 import Home from './Component/Home';
 import About from './Component/About';
 import Courses from './Component/Courses';
 import Pages from './Component/Pages';
-import Login from './Component/Login';
+import Category from './Component/Category';
 import Signup from './Component/Signup';
 import Footer from './Component/Footer';
 import Header from './Component/Header';
@@ -24,7 +26,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/courses" element={<Courses />} />
           <Route path="/pages" element={<Pages />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/category" element={<Category />} />
           <Route path="/signup" element={<Signup />} />
         </Routes>
         <Footer />
