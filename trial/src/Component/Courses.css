@@ -1,8 +1,20 @@
 .courses {
   text-align: center;
-  padding: 2rem 0;
+  padding: 1rem 0;
+  margin: 10px;
 }
-
+.category{
+  text-align: center;
+  margin-top: 80px;
+margin-bottom: 40px;
+}
+.category p{
+  color: hsl(12, 89%, 50%);
+  text-transform: uppercase;
+}
+.category h1{
+  color: darkblue;
+}
 /* .courses button {
   margin: 0.5rem;
   width: 17%;
@@ -24,18 +36,20 @@ box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
  }
 .button {
   --color: black;
-  /* padding: 0.8em 1.75em; */
+  padding: 0.8em 1.75em;
   width: 300px;
   border-radius: 15px;
-  border: .1px solid #FFD43B;
+  border: .0.5px solid #FFD43B;
   transition: .5s;
   position: relative;
   cursor: pointer;
   font-weight: 600;
-  font-size: 27px;
+  font-size: 17px;
   font-family: 'Roboto', 'Segoe UI', sans-serif;
   text-transform: capitalize;
   color: var(--color);
+  margin-left: 15px;
+  background-color: white;
  }
  
  

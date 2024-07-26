@@ -40,16 +40,16 @@ const Navbar = () => {
   return (
     <>
         <nav className="Navbar">
-      <FontAwesomeIcon icon={faGraduationCap} size="4x" className="logo" />
-      <Link className="link" to="/" style={linkStyles}>Home</Link>
+      <FontAwesomeIcon icon={faGraduationCap} size="4x"  className="logo" style={{color: "darkblue",}}/>
+     <span className='link'> E-learning</span>
+        <Link  to="/" style={linkStyles}>Home</Link>
         <Link to="/about" style={linkStyles}>About</Link>
         <Link to="/courses" style={linkStyles}>Courses</Link>
         <Link to="/pages" style={linkStyles}>Pages</Link>
         <Link to="/category" style={linkStyles}>Category</Link>
         <Link to="/about" style={linkStyles}>Contact</Link>
-    <Link to="/help" style={linkStyles}>Help</Link>
-   
-    <Link to="/signup" style={linkStyles} >< button style={button}>Login</button></Link>  
+        <Link to="/help" style={linkStyles}>Help</Link>
+        <Link to="/signup" style={linkStyles} >< button style={button}>Login</button></Link>  
 
 
    

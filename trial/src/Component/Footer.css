@@ -1,0 +1,15 @@
+.card1{
+    text-align: center;
+  }
+  .buttons1{
+    width: 300px;
+    margin-left: 10px;
+    text-align: left;
+    color: darkblue;
+  }
+  spn{
+    font-weight: 100;
+    font-size: small;
+    margin-left: 10px;
+    color: black;
+  }

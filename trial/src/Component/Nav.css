@@ -2,8 +2,15 @@
     text-align: end;
     margin-right: 10px;
 } */
+.link{
+    margin-right: 300px;
+    font-size: larger;
+    font-weight: bold;
+    color: darkblue;
+}
 .logo{
     margin-left: 200px;
-    margin-right: 500px;
+    
 }
+
 

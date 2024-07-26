@@ -14,23 +14,26 @@ const Header = () => {
     <>
     <header className="header">
       <div className="bg-image">
-        <h1>Welcome to the Learning Management System</h1>
+   
 
-        <form class="d-flex" role="search">
-      <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-      <button className="tan" type="submit">Search</button>
-    </form>
+        {/* <h1 className='headings'>Educate!</h1>
+        <span className='headings'>Smart Is Greate</span>
+
+        <div class="input-container">
+  <input type="text" placeholder="search" />
+  <button class="button2">search</button>
+</div> */}
 
        </div>
     </header>
        <div className='class'>
-       <section className='courses'> 
-    <button className='buttons'><h4> <FontAwesomeIcon icon={faDraftingCompass} size='6x' className='fa-icon'style={{color: "#FFD43B",}}/>
-    Software Engineering<br /><span className='span'>bbbbbbbbbb</span></h4></button>
-    <button className='buttons'><h4> <FontAwesomeIcon icon={faUserCircle} size='6x' className='fa-icon'style={{color: "#FFD43B",}}/>
-      Software Engineering<br /><span className='span'>bbbbbbbbbb</span></h4></button>
-      <button className='buttons'><h4> <FontAwesomeIcon icon={faHistory} size='6x' className='fa-icon'style={{color: "#FFD43B",}}/>
-      Software Engineering<br /><span className='span'>bbbbmmmmmmmmmmmmmbbbbbb</span></h4></button>
+       <section className='card'> 
+    <button className='buttons'><h2> <FontAwesomeIcon icon={faDraftingCompass} size='2x' className='fa-icons'style={{color: "#FFD43B",}}/>
+    100,000 online courses<br /><span className='span'>Explore a variety of fresh topics</span></h2></button>
+    <button className='buttons'><h2> <FontAwesomeIcon icon={faUserCircle} size='2x' className='fa-icons'style={{color: "#FFD43B",}}/>
+    Instant Expert instruction<br /><span className='span'>Find the right instructor for you</span></h2></button>
+      <button className='buttons'><h2> <FontAwesomeIcon icon={faHistory} size='2x' className='fa-icons'style={{color: "#FFD43B",}}/>
+      Lifetime course access<br /><span className='span'>Learn on your schedule anytime</span></h2></button>
       </section>
 
     </div>

@@ -40,7 +40,7 @@ const PopularCourses = () => {
               <div className="cloud front">
                 {course.icon && <div className="icon">{course.icon}</div>}
                 <hr />
-                <h3>{course.title}</h3>
+                <h4>{course.title}</h4>
                 <p>{course.description}</p>
                 <button className="learn-more">
                   <span className="circle" aria-hidden="true">
@@ -59,7 +59,8 @@ const PopularCourses = () => {
             <div className="containers">
               <div className="cloud front">
                 {item.icons && <div className="icon">{item.icons}</div>}
-                <h3>{item.titles}</h3>
+                <hr />
+                <h4>{item.titles}</h4>
                 <p>{item.descriptions}</p>
                 <button className="learn-more">
                   <span className="circle" aria-hidden="true">

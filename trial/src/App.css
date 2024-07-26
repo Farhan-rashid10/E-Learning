@@ -4,19 +4,36 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #f1f1eb;
 }
 
 
 
-
-
-
-
-
-
-.courses {
+.h2{
+  color: darkblue;
   text-align: center;
-  padding: 2rem 0;
+ }
+ .button1{
+  width: 300px;
+  /* margin-left: 10px; */
+  text-align: center;
+  border-right: 0.1px solid hwb(265 31% 49%);
+}
+.classes{
+  margin: 90px;
+}
+
+.spans{
+  font-size: large;
+  font-weight: 200;
+  text-align: start;
+  color: black;
+} 
+
+
+
+/* .courses {
+  text-align: center;
 }
 
 .courses button {
@@ -24,7 +41,7 @@ body {
   padding: 0.5rem 1rem;
   font-size: 1rem;
   cursor: pointer;
-}
+} */
 
 .popular-courses {
   display: flex;
