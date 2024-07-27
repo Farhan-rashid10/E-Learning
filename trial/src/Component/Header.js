@@ -14,15 +14,13 @@ const Header = () => {
     <>
     <header className="header">
       <div className="bg-image">
-   
-
-        {/* <h1 className='headings'>Educate!</h1>
+        <h1 className='headings'>Educate!</h1>
         <span className='headings'>Smart Is Greate</span>
-
         <div class="input-container">
+          
   <input type="text" placeholder="search" />
   <button class="button2">search</button>
-</div> */}
+</div>
 
        </div>
     </header>

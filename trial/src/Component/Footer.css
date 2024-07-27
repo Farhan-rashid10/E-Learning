@@ -6,10 +6,12 @@
     margin-left: 10px;
     text-align: left;
     color: darkblue;
+    opacity: .7;
   }
   spn{
     font-weight: 100;
     font-size: small;
     margin-left: 10px;
     color: black;
+    opacity: .5;
   }

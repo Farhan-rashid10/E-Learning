@@ -73,6 +73,7 @@ const PopularCourses = () => {
           </div>
         ))}
       </section>
+     
     </>
   );
 };
