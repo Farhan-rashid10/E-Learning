@@ -36,7 +36,7 @@ const PopularCourses = () => {
       <section className="popular-courses">
         {popularCourses.map((course, index) => (
           <div key={index} className="cards">
-            <div className="containers">
+            <div className="popular">
               <div className="cloud front">
                 {course.icon && <div className="icon">{course.icon}</div>}
                 <hr />
@@ -56,7 +56,7 @@ const PopularCourses = () => {
       <section className="popular-courses">
         {courses.map((item, index) => (
           <div key={index} className="cards">
-            <div className="containers">
+            <div className="popular">
               <div className="cloud front">
                 {item.icons && <div className="icon">{item.icons}</div>}
                 <hr />

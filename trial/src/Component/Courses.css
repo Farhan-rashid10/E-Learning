@@ -35,7 +35,7 @@ box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
  .fa-icon{
   margin-right: 20px;
  }
-.button {
+.courses .button {
   --color: black;
   padding: 0.8em 1.75em;
   width: 300px;
@@ -61,4 +61,16 @@ box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   transform: translateY(-9px);
  }
  
+
+ /* src/components/Courses.css */
+ /* .courses-container {
+  display: flex;
+}
+
+.courses-content {
+  margin-left: 220px;
+  padding: 20px;
+  width: 100%;
+} */
+
  

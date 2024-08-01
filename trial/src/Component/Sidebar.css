@@ -1,0 +1,11 @@
+/* src/components/Sidebar.css */
+.sidebar {
+  width: 200px; /* Adjust as needed */
+  height: 100vh; /* Full viewport height */
+  position: sticky;
+  top: 0; /* Stick to the top of the viewport */
+  background-color: #f8f9fa;
+  padding-top: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Optional: adds shadow for better separation */
+  overflow: auto; /* Add scroll if needed */
+}

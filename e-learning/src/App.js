@@ -1,12 +1,13 @@
-import './App.css';
-import CarouselComponent from './Home';
+// src/App.js
+import React from 'react';
+import ReadmeComponent from './Read';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <CarouselComponent />
+    <div>
+      <ReadmeComponent />
     </div>
   );
-}
+};
 
 export default App;

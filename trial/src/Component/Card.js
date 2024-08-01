@@ -1,10 +1,30 @@
 // src/components/Card.js
 import React from 'react';
 import './Card.css';
+import './Courses.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 
 const Card = () => {
   return (
     <>
+     <div className='category'>
+      <p>top category</p>
+      <h1>Pick the right category Build <br /> your career</h1>
+    </div>
+    <section className="courses">
+      <button className='button'><h4> <FontAwesomeIcon icon={faLaptopCode} size='1x' className='fa-icon'style={{color: "darkblue",}}/>
+      Software Engineering</h4></button>
+      <button className='button'><h4>Affiliate Marketing</h4></button>      
+      <button className='button'><h4>Graphic Design</h4></button>
+      <button className='button'><h4>Graphic Design</h4></button>
+          </section>
+          <section className="courses">
+      <button className='button'><h4>Software Engineering</h4></button>
+      <button className='button'><h4>Affiliate Marketing</h4></button>      
+      <button className='button'><h4>Graphic Design</h4></button>
+      <button className='button'><h4>Graphic Design</h4></button>
+          </section>
     <div className='ranking'>
         <h1>Ranking Courses</h1>
          <div class="container">
@@ -46,30 +66,33 @@ const Card = () => {
             </div>
         </div>
     </div>
+
+
+
+    <form action="" class="form_main">
+    <div action="" class="form_main-before">
+    <p class="heading">15 Days Free Trial</p>
+    </div>
+    <div className='input'>
+    <div class="inputContainer">
+        
+    <input type="text" class="inputField" id="username" placeholder="Username" />
+    </div>
+    
+<div class="inputContainer">
+    
+    <input type="password" class="inputField" id="password" placeholder="Password" />
+</div>
+<div class="inputContainer">
+    
+    <input type="password" class="inputField" id="password" placeholder="Password" />
+</div>
+</div>
+           
+<button id="button">Get Your Free Trial</button>
+</form>
     </div>
 
-    {/* <div class="main">  	
-		<input type="checkbox" id="chk" aria-hidden="true" />
-
-			<div class="login">
-				<form class="form">
-					<label for="chk" aria-hidden="true">Log in</label>
-					<input class="input" type="email" name="email" placeholder="Email" required="" />
-					<input class="input" type="password" name="pswd" placeholder="Password" required="" />
-					<button>Log in</button>
-				</form>
-			</div>
-
-      <div class="register">
-				<form class="form">
-					<label for="chk" aria-hidden="true">Register</label>
-					<input class="input" type="text" name="txt" placeholder="Username" required="" />
-					<input class="input" type="email" name="email" placeholder="Email" required=""/>
-					<input class="input" type="password" name="pswd" placeholder="Password" required=""/>
-					<button>Register</button>
-				</form>
-			</div>
-	</div> */}
     </>
   );
 };

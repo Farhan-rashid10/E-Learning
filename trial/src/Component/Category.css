@@ -145,7 +145,7 @@
     font-weight: 900;
     letter-spacing: 0.1rem;
     text-transform: capitalize;
-    color: #23272F;
+    color: hsl(220, 6%, 10%);
     border: none;
     width: 20px;
     border-radius: 0 2rem 2rem 0;

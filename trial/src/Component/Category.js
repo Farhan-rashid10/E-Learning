@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import './Category.css';
 
 
+
 const Category = () => {
   const [count , setCount] = useState(0)
   const [counts , setCounts] = useState(0)
@@ -36,6 +37,7 @@ useEffect(()=>{
 
   return (
     <>
+    
     <div className='classes'>
     <section className='card'> 
  <button className='button1' onClick={handleClick} ><h2 className='h2'>
