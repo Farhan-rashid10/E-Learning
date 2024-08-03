@@ -1,6 +1,6 @@
 /* src/components/Sidebar.css */
 .sidebar {
-  width: 200px; /* Adjust as needed */
+  width: 100px; /* Adjust as needed */
   height: 100vh; /* Full viewport height */
   position: sticky;
   top: 0; /* Stick to the top of the viewport */
@@ -8,4 +8,58 @@
   padding-top: 20px;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Optional: adds shadow for better separation */
   overflow: auto; /* Add scroll if needed */
+  float: left;
+  margin-top: -110px;
+  
 }
+.sidebar h1{
+  font-size: 17px;
+  padding-left: 15px;
+  padding-top: 10px;
+  color: darkblue;
+}
+
+
+
+
+
+
+
+.hover-link {
+  text-decoration: none;
+}
+
+.hover-title span{
+  font-size: 2rem;
+  color: black;
+  position: relative;
+  font-size: smaller;
+  line-height: 20px;
+}
+
+/* .hover-title::after {
+  content: 'Dashboard';
+  position: absolute;
+  bottom: -1.5em;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+  white-space: nowrap;
+  font-size: 1rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.hover-link:hover .hover-title::after {
+  opacity: 1;
+  visibility: visible;
+  margin-left: 30px;
+
+} */
+
+
+

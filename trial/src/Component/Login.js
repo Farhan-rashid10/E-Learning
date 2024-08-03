@@ -1,6 +1,7 @@
 // src/Login.js
 import React, { useState } from 'react';
 import './Login.css';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
   const [username, setUsername] = useState('');
@@ -52,7 +53,9 @@ const Login = () => {
             onChange={(e) => setPassword(e.target.value)}
           />
         </div>
+        <Link to='/dashboard'>
         <button type="submit">Login</button>
+        </Link>
       </form>
     </div>
   );

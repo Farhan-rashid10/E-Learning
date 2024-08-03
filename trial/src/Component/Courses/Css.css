@@ -1,0 +1,83 @@
+.content-area {
+    max-width: 800px;
+    margin: 0 auto; /* Centers the content and removes left margin */
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  .css{
+    text-align: center;
+    color: darkblue;
+  }
+
+  /* Heading styles */
+  h1, h2, h3 {
+    color: #333;
+    margin-top: 0;
+  }
+
+  /* List styles */
+  ul {
+    list-style: inside square;
+    padding-left: 20px;
+  }
+
+  /* Paragraph and list item styles */
+  p, li {
+    color: #666;
+  }
+
+  /* Code block styles */
+  pre {
+    background-color: #f5f5f5;
+    padding: 10px;
+    overflow-x: auto; /* Ensures code blocks are scrollable horizontally on smaller screens */
+  }
+
+  /* Responsive iframe */
+  iframe {
+    width: 100%;
+    height: 315px; /* Adjust height as needed */
+    margin-bottom: 20px;
+  }
+
+  /* Responsive images */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  /* Media Queries for Responsiveness */
+  @media (max-width: 992px) {
+    /* Adjust content area padding and margin for tablets and smaller laptops */
+    .content-area {
+      padding: 15px;
+      margin: 0 10px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    /* Additional adjustments for smaller tablets */
+    .content-area {
+      padding: 10px;
+    }
+    iframe {
+      height: 200px; /* Smaller iframe on smaller devices */
+    }
+  }
+
+  @media (max-width: 600px) {
+    /* Adjustments for mobile phones */
+    .content-area {
+      margin: 0 5px;
+      padding: 10px;
+    }
+    iframe {
+      height: 180px;
+    }
+    pre {
+      padding: 5px; /* Smaller padding for code blocks */
+    }
+  }

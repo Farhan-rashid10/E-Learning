@@ -1,0 +1,46 @@
+/* src/Calendar2024.css */
+
+.calendar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 200px;
+
+  }
+  .root{
+    color: darkblue;
+    text-align: center;
+  }
+  
+  .month {
+    width: 22%;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .month h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .days, .dates {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+  
+  .day, .date {
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .day {
+    font-weight: 700;
+  }
+  
+  .date {
+    border: 1px solid #eee;
+    border-radius: 3px;
+  }
+  

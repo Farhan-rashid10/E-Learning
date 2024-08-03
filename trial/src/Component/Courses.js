@@ -1,16 +1,16 @@
 // src/components/Courses.js
 import React from 'react';
-import Sidebar from './Sidebar';
+
 import './Courses.css';
+import Sidebar from './Sidebar';
 
 const Courses = () => {
   return (
     <div className="courses-container">
-      <Sidebar />
-      <div className="courses-content">
-        <h1>Courses</h1>
-        <p>Select a course from the sidebar to get started.</p>
-      </div>
+     
+     <Sidebar />
+     <h1 className='heading'>Popular Courses</h1>
+    
     </div>
   );
 };

@@ -1,6 +1,7 @@
 /* src/Login.css */
 .login-container {
     width: 300px;
+    height: 400px;
     margin: 50px auto;
     padding: 20px;
     border: 1px solid #ccc;
@@ -10,10 +11,12 @@
   
   .login-container h2 {
     text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
   }
   
   .form-group {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
   }
   
   .form-group label {
@@ -23,7 +26,8 @@
   
   .form-group input {
     width: 100%;
-    padding: 8px;
+    padding: 12px;
+    border-radius: 8px;
     box-sizing: border-box;
   }
   
@@ -36,7 +40,7 @@
   .login-container button {
     width: 100%;
     padding: 10px;
-    background-color: #4CAF50;
+    background: linear-gradient(90deg, darkblue, #ffb800);    height: 40px;
     color: white;
     border: none;
     border-radius: 4px;
@@ -44,6 +48,6 @@
   }
   
   .containers button:hover {
-    background-color: #45a049;
+    background-color: darkblue;
   }
   

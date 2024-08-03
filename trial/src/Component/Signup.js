@@ -69,7 +69,7 @@ onChange={handleChange} />
                 onChange={handleChange}/>
                 
         </div>
-        <button id='sign'>Sign up <Link to="/login" ></Link> </button>
+        <button id='sign'>Sign up</button>
     </form>
     <div class="form-section">
       <p>Have an account?<Link to="/login" > Login</Link>  

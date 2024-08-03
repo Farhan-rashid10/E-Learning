@@ -1,0 +1,40 @@
+
+  
+  .faq-container {
+    width: 60%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    margin-left: 300px;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .faq-item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .faq-question {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .faq-question:hover {
+    color: #007BFF;
+  }
+  
+  .faq-answer {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  

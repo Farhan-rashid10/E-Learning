@@ -1,0 +1,13 @@
+.soon{
+    background-color: darkblue;
+    content: "COMING SOON";
+    color: white;
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    font-size: xxx-large;
+    font-weight: bolder;
+}
+.soon h1{
+    color: white;
+}

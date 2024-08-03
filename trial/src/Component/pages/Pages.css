@@ -1,0 +1,97 @@
+.sidenav{
+    text-align: center;
+}
+.sidenav h2{
+    text-align: center;
+}
+
+.sidenav textarea{
+  text-align: center;
+  width: 70%;
+  height: 400px;
+}
+
+.sidenav button{
+  z-index: 2;
+  position: relative;
+  width: 10%;
+  height: 70px;
+  border: none;
+  background: linear-gradient(90deg, darkblue, #ffb800);    height: 40px;
+  color: white;
+  font-weight: lighter;
+  font-size: 1.1em;
+  font-weight: 900;
+  border-radius: 6px;
+  
+}
+
+
+.clourontd{
+    text-align: center;
+}
+.cards6{
+    width: 350px;
+  height: 365px;
+  position: relative;
+  box-shadow: 0px 155px 62px rgba(0, 0, 0, 0.01), 0px 87px 52px rgba(0, 0, 0, 0.05), 0px 39px 39px rgba(0, 0, 0, 0.09), 0px 10px 21px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 23px;
+  transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
+  cursor: pointer;
+  background: #fff;
+  margin: 20px;
+  text-align: left;
+  padding-left: 5px;
+
+}
+.popular2 h4{
+    text-align: center;
+    font-size: x-large;
+    text-decoration: none;
+    color: rgb(243, 161, 8);
+}
+.link{
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* Pages.css */
+.user-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-button-container {
+    width: 100%; /* Make the container full width */
+    margin-bottom: 10px; /* Add some space between the buttons */
+  }
+  
+  .user-button {
+    width: 100%; /* Make the button full width */
+    padding: 10px; /* Add padding for better appearance */
+    display: flex;
+    justify-content: space-between; /* Space between username and delete button */
+    align-items: center; /* Center content vertically */
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px; /* Adjust padding for the delete button */
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: darkred;
+  }
+  

@@ -29,12 +29,13 @@
     margin-right: 10px;
     float: left;
    }
-   h2{
+  
+
+  .buttons h2{
     color: white;
     text-align: left;
-   }
 
-  .span{
+  } .span{
     font-size: medium;
     font-weight: 100;
     text-align: start;

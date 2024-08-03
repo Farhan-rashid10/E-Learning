@@ -10,6 +10,9 @@ function Contact() {
     message: ''
   });
 
+  // State to manage the ID of the contact being updated
+  const [contactId, setContactId] = useState(null);
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((formData) => ({
@@ -21,8 +24,14 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    fetch('http://localhost:3000/questions', {
-      method: 'POST',
+    const url = contactId
+      ? `http://localhost:3000/questions/${contactId}`
+      : 'http://localhost:3000/questions';
+
+    const method = contactId ? 'PATCH' : 'POST';
+
+    fetch(url, {
+      method: method,
       headers: {
         'Content-Type': 'application/json'
       },
@@ -30,9 +39,15 @@ function Contact() {
     })
     .then((response) => response.json())
     .then(data => {
-      alert('Form submission data:', data);
+      alert(`Form submitted`);
+      if (!contactId) {
+        setContactId(data.id); // Set contactId if new contact is created
+      }
     })
-  
+    .catch(error => {
+      console.error('Error:', error);
+      alert('There was an error with your submission.');
+    });
   };
 
   return (

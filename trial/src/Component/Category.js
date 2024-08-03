@@ -37,7 +37,8 @@ useEffect(()=>{
 
   return (
     <>
-    
+    <div className='about'>
+    </div>
     <div className='classes'>
     <section className='card'> 
  <button className='button1' onClick={handleClick} ><h2 className='h2'>

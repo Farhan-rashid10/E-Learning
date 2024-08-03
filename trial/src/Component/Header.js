@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 
-const Header = () => {
+const Header = ({search,onSearchChange}) => {
 
   
   return (
@@ -18,7 +18,7 @@ const Header = () => {
         <span className='headings'>Smart Is Greate</span>
         <div class="input-container">
           
-  <input type="text" placeholder="search" />
+  <input type="text" placeholder="search" value={search} onChange={onSearchChange}/>
   <button class="button2">search</button>
 </div>
 

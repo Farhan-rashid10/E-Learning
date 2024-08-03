@@ -1,13 +1,56 @@
-// src/Users.js
-import React from 'react';
+// src/UserList.js
+import React, { useEffect, useState } from 'react';
+import './Pages.css';
+import Sidebar from '../Sidebar';
 
-const Users = () => {
+const User = () => {
+  const [users, setUsers] = useState([]);
+
+  useEffect(() => {
+    fetch('http://localhost:3000/users')
+      .then(response => response.json())
+      .then(data => setUsers(data))
+  }, []);
+
+  const deleteUser = (id) => {
+    fetch(`http://localhost:3000/users/${id}`, {
+      method: 'DELETE',
+    })
+    .then(response => {
+      if (response.ok) {
+        setUsers(users.filter(user => user.id !== id));
+      } else {
+        console.error('Failed to delete user');
+      }
+    });
+  };
+
   return (
-    <div>
-      <h2>Users</h2>
-      <p>Content for users...</p>
+    <>
+  <hr/>
+    <Sidebar />
+    <div className="user-list">
+      {users.map(user => (
+        <div key={user.id} className="user-button-container">
+          <button className="user-button">
+            {user.fullName}
+            <button 
+              className="delete-button" 
+              onClick={(e) => {
+                e.stopPropagation();
+                deleteUser(user.id);
+              }}
+            >
+              Delete
+            </button>
+          </button>
+
+        </div>
+      ))}
     </div>
+
+    </>
   );
 };
 
-export default Users;
+export default User;

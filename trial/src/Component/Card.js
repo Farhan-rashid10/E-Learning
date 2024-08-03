@@ -2,8 +2,7 @@
 import React from 'react';
 import './Card.css';
 import './Courses.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
+
 
 const Card = () => {
   return (
@@ -13,20 +12,19 @@ const Card = () => {
       <h1>Pick the right category Build <br /> your career</h1>
     </div>
     <section className="courses">
-      <button className='button'><h4> <FontAwesomeIcon icon={faLaptopCode} size='1x' className='fa-icon'style={{color: "darkblue",}}/>
-      Software Engineering</h4></button>
+      <button className='button'><h4> Software Engineering</h4></button>
       <button className='button'><h4>Affiliate Marketing</h4></button>      
       <button className='button'><h4>Graphic Design</h4></button>
-      <button className='button'><h4>Graphic Design</h4></button>
+      <button className='button'><h4>Data Analysis</h4></button>
           </section>
           <section className="courses">
-      <button className='button'><h4>Software Engineering</h4></button>
-      <button className='button'><h4>Affiliate Marketing</h4></button>      
-      <button className='button'><h4>Graphic Design</h4></button>
-      <button className='button'><h4>Graphic Design</h4></button>
+      <button className='button'><h4>Community Development</h4></button>
+      <button className='button'><h4>Business Management</h4></button>      
+      <button className='button'><h4>Cyber-security</h4></button>
+      <button className='button'><h4>Computer Science</h4></button>
           </section>
     <div className='ranking'>
-        <h1>Ranking Courses</h1>
+        <h1>Ranking Courses of Software Engineering</h1>
          <div class="container">
         <div class="skill-box">
             <span class="title">HTML</span>
