@@ -1,6 +1,6 @@
 # E-Learning
 
-EduLMS is a modern Learning Management System designed to provide educators and students with a seamless and interactive learning experience. It offers a variety of tools and features to facilitate online education, course management, and student engagement.
+E-Learning is a modern Learning Management System designed to provide educators and students with a seamless and interactive learning experience. It offers a variety of tools and features to facilitate online education, course management, and student engagement.
 
 ## Features
 
@@ -24,7 +24,7 @@ EduLMS is a modern Learning Management System designed to provide educators and 
 1. **Clone the repository:**
 
    \`\`\`sh
-   git clone https://github.com/yourusername/edulms.git
+   git clone https://github.com/yourusername/E-Learning.git
    cd edulms
    \`\`\`
 
