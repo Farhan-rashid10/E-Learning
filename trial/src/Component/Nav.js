@@ -48,7 +48,7 @@ const Navbar = () => {
         <Link to="/courses" style={linkStyles}>Courses</Link>
         <Link to="/category" style={linkStyles}>Category</Link>
         <Link to="/contact" style={linkStyles}>Contact</Link>
-        <Link to="/help" style={linkStyles}>Help</Link>
+        <Link to="/help" style={linkStyles}>Admin</Link>
         <Link to="/signup" style={linkStyles} >< button style={button}>Sing Up</button></Link>  
         <Link to="/login" style={linkStyles} >< button style={button}>Login</button></Link>  
 

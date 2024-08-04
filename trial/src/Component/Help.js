@@ -23,28 +23,33 @@ function Help() {
     <div className='comment'>
         <div className='card-c'>
       <h1>Comments</h1>
-      (
-        <ul>
+      
           {comments.map(comment => (
-            <li key={comment.id}>{comment.comment}</li>
+            <button key={comment.id}>{comment.comment}</button>
           ))}
-        </ul>
-      )
+      
       </div>
      
       
         <div className='card-b'>
       <h1>Submitted Contacts</h1>
-      <ul>
-        {contacts.map(contact => (
-          <li key={contact.id}>
-            <p>Name: {contact.firstName} {contact.lastName}</p>
-            <p>Email: {contact.email}</p>
-            <p>Contact Number: {contact.contactNumber}</p>
-            <p>Message: {contact.message}</p>
-          </li>
+      <table>
+      <tr>
+            <th>Name: </th>
+            <th>Email: </th>
+            <th>Contact Number: </th>
+            <th>Message: </th>
+          </tr>
+         
+          {contacts.map(contact => (
+          <tr key={contact.id}>
+            <td>{contact.firstName} {contact.lastName}</td>
+            <td>{contact.email}</td>
+            <td>{contact.contactNumber}</td>
+            <td> {contact.message}</td>
+          </tr>
         ))}
-      </ul>
+      </table>
       </div>
     </div>
   </>

@@ -28,22 +28,14 @@
     },
     {
       "id": "6102",
-      "firstName": "khalid777777777777",
-      "lastName": "mouuuuuuuuuuuuuuuuuu",
+      "firstName": "khali777",
+      "lastName": "mouuuuu",
       "email": "istahiljibril8@gmail.com",
-      "contactNumber": "077777777777777777777777777",
+      "contactNumber": "07777777",
       "message": "go home"
     }
   ],
   "users": [
-    {
-      "id": "a765",
-      "fullName": "Abdi Mohamed Khasim",
-      "email": "farkaf07@gmail.com",
-      "password": "1234",
-      "confirmpassword": "1234",
-      "Username": "bull"
-    },
     {
       "id": "dc98",
       "fullName": "Ali Osmaan Abdi",
@@ -224,7 +216,7 @@
   "comments": [
     {
       "id": "a122",
-      "comment": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+      "comment": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
     }
   ]
 }
