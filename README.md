@@ -25,7 +25,7 @@ E-Learning is a modern Learning Management System designed to provide educators 
 
    \`\`\`sh
    git clone https://github.com/yourusername/E-Learning.git
-   cd edulms
+   cd lms
    \`\`\`
 
 2. **Install dependencies:**
